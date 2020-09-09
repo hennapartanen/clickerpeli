@@ -1,0 +1,134 @@
+.parent{
+    position: relative;
+}
+
+.koira {
+    position: relative;
+    top: 0;
+    left: 330px;
+    z-index: 1;
+    top: 150px;
+    cursor: pointer;
+}
+
+.koira:active {
+
+
+    transform: translateY(2px);
+
+
+}
+.hattu {
+
+
+    position: absolute;
+    top: 320px;
+    left: 410px;
+    z-index: 3;
+    height: 37%;
+
+}
+
+.kalja {
+
+    position: absolute;
+    top: 660px;
+    left: 800px;
+    z-index: 4;
+    height: 35%;
+
+
+}
+
+
+.viikset {
+
+    position: absolute;
+    top: 660px;
+    left: 440px;
+    z-index: 5;
+    height: 20%;
+    cursor: pointer;
+
+}
+
+.puttonit {
+    position: relative; 
+}
+
+.btn1 {
+
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    z-index: 5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(255, 137, 137);
+    padding: 15px 25px;
+    cursor: pointer;
+
+
+}
+
+.btn1:active {
+
+    background-color: rgb(rgb(255, 47, 47));
+    transform: translateY(4px);
+
+
+}
+
+
+.btn2 {
+
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    z-index: 5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(255, 137, 137);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.btn2:active {
+
+    background-color: rgb(rgb(255, 47, 47));
+    transform: translateY(4px);
+}
+.btn {
+
+    
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    z-index: 5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(255, 137, 137);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.btn3:active {
+
+    background-color: rgb(rgb(255, 47, 47));
+    transform: translateY(4px);
+
+}
+.btn3 {
+
+    
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    z-index: 5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(255, 137, 137);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.btn:active {
+
+    background-color: rgb(rgb(255, 47, 47));
+    transform: translateY(4px);
+}

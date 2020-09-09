@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker peli</title>
+
+    <link rel="stylesheet" href="seeassas.css">
+
+    <h1 style="text-align: center; font-size: 300%; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Klikkaa kissaa saadaksesi kolikeita</h1>
+
+
+
+    
+</head>
+<body>
+    
+    <div id= "kissa">
+    <div style= "font-size:230%; text-align: center;  font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <h3 id="coins"></h3>
+    <h4 id="coinsPS"></h3>
+
+    </div>
+</div>
+
+  <div id="parent">
+
+    <img src='koira.png' class="koira"  width="600" height="400>" onclick='gainCoin()'>
+
+    <img style="display:none;" id="hattu" class="hattu" src="hattu.png" />
+
+    <img style="display:none;" id="kalja" class="kalja" src="juoma.png" />
+
+    <img style="display:none;" id="viikset" class="viikset" src="viikset.png" onclick='gainCoin()'/>
+    
+   
+    </div>
+
+    <div id="puttonit" >
+   
+
+    <button class="btn" onclick="showPicture1()"> Osta kissalle juoma (500coins)        </button>
+    <button class="btn1" onclick="showPicture()" > Osta kissalle hattu (100coins)       </button>
+    <button class="btn3" onclick="showPicture2()" > Osta kissalle amisviikset(1000coins)</button>
+   
+
+    <button class="btn2" onclick ="getCoinsPS()" > 1 kolikko sekunnissa(50coins)                </button>
+  
+      
+
+    </div>
+
+    <script src= jiias.js ></script>
+   
+
+    
+        
+
+</body>
+</html>
